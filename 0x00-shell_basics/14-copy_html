@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -v *.html /pwd
+cp -v .html* /pwd
