@@ -1,2 +1,2 @@
 #!/bi/bash
-cut -c l | paste -s -d ''
+cut -C l | paste -s -d ''
