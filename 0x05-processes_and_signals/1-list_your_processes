@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Write a Bash script that prints the current process
 
-ps axu
+ps -faxu
