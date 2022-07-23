@@ -6,6 +6,6 @@ do
   echo "To infinity and beyond"
   sleep 2
   trap 'echo "I am invincible!!!";sudo rm /var/run/myscript.pid;exit' SIGTERM
-  trap 'echo "Y U no loe me?!"' SIGINT
+  trap 'echo "Y U no love me?!"' SIGINT
   trap 'sudo rm /var/run/myscript.pid;exit' SIGQUIT
 done
